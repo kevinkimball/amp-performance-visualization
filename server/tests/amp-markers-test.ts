@@ -43,7 +43,5 @@ test('Returned AMP Markers', async t => {
     }
   });
 
-  
-
   t.deepEqual(ampMarkers, ampMarkersExpected);
-  })
+});
